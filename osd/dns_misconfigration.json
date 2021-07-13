@@ -3,6 +3,6 @@
     "service_name": "SREManualAction",
     "cluster_uuid": "${CLUSTER_UUID}",
     "summary": "Action required: DNS misconfigration",
-    "description": "Your cluster requires you to take action. SRE has observed that there have been changes made to DNS configuration which impacts normal working of the cluster. Please revert changes or contact support for more assistance.",
+    "description": "Your cluster requires you to take action. SRE has observed that configmap/dns-default in openshift-dns namespace has been updated and the updates impact normal working of the cluster. Please revert the changes or contact customer support for more assistance. More info: https://docs.openshift.com/container-platform/4.7/networking/dns-operator.html",
     "internal_only": false
 }
